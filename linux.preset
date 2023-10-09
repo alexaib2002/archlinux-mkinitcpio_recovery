@@ -1,0 +1,5 @@
+# Recovery creation settings
+recovery_config="/etc/mkinitcpio-recovery.conf"
+recovery_image="/boot/initramfs-linux.img"
+recovery_uki="/efi/EFI/Linux/arch-linux-recovery.efi"
+recovery_options="-S autodetect --cmdline /etc/kernel/recovery_cmdline"
